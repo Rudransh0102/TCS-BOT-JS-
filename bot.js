@@ -23,7 +23,7 @@ client.on("message", async (msg) => {
 });
 
 try {
-  client.login("MTA2MzA4NTgwMTE2NjA5ODQ0Mg.G9YKgT.C8kov5b0UszQiy700vUvt2jbqBZDOTQdkAlB5o");
+  client.login("process.env.BOT_TOKEN");
 } catch (error) {
   console.log(`There is some error in token ${error}`);
 }
